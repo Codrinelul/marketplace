@@ -109,6 +109,7 @@ const Checkout = lazy(() => import("./pages/other/Checkout"));
 const Tokens = lazy(() => import("./pages/buySellTokens/BuySellTokens"));
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 const PostProduct = lazy(() => import("./pages/other/PostProduct"));
+const AddPricingPage = lazy(() => import("./pages/other/AddPricingPage"));
 
 const App = (props) => {
   useEffect(() => {
@@ -425,6 +426,11 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/PostProduct"}
                   component={PostProduct}
                 />
+                <Route
+                  path={process.env.PUBLIC_URL + "/AddPricingPage"}
+                  component={AddPricingPage}
+                />
+
 
                 <Route
                   path={process.env.PUBLIC_URL + "/not-found"}
