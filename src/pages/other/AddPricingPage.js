@@ -1,12 +1,7 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
-import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
-import BannerTwo from "../../wrappers/banner/BannerTwo";
-import TabProductTwo from "../../wrappers/product/TabProductTwo";
-import CountDownOne from "../../wrappers/countdown/CountDownOne";
-import FeatureIconTwo from "../../wrappers/feature-icon/FeatureIconTwo";
-import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
+
 
 const AddPricingPage = () => {
     return (
